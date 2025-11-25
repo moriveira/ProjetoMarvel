@@ -1,0 +1,13 @@
+main {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    max-width: 950px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 15px;
+}

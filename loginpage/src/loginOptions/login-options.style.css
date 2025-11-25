@@ -1,0 +1,6 @@
+.login-options {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    flex-direction: row;
+}

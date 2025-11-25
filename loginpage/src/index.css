@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: 
+    linear-gradient(to right, #000 40%, transparent 100%),
+    url('/public/avengersBG.jpg');
+  background-position: top right;
+  background-repeat: no-repeat;
+}
