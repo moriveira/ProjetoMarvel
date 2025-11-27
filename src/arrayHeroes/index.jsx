@@ -5,7 +5,7 @@ export function HeroesList() {
   useEffect(() => {
     const heroes = [
       { nome: "Homem de Ferro", foto: "https://conteudo.imguol.com.br/c/entretenimento/2f/2018/07/20/eu-sou-o-homem-de-ferro-1532117457812_v2_900x506.jpg", descricao: " industrial bilionário, inventor e gênio que usa uma armadura de alta tecnologia para combater o crime. Ele se descreve como um gênio, bilionário, playboy e filantropo e é conhecido por sua inteligência, senso de humor sarcástico e personalidade complexa, que às vezes é arrogante e teimosa. ", avaliacao: "/public/5starspng.png" },
-      { nome: "Capitão América", foto: "/public/captain-america-icon.jpg", descricao: " um supersoldado com força, agilidade e durabilidade sobre-humanas, além de ser um mestre em combate e táticas militares. Ele utiliza um escudo de vibranium para ataque e defesa, que pode lançar com grande precisão. O personagem é conhecido por sua liderança, moralidade e senso de justiça. ", avaliacao: "/public/5starspng.png"},
+      { nome: "Capitão América", foto: "https://i.pinimg.com/1200x/89/66/6a/89666a73ad3b7e1e0779ce63b2f9ebde.jpg", descricao: " um supersoldado com força, agilidade e durabilidade sobre-humanas, além de ser um mestre em combate e táticas militares. Ele utiliza um escudo de vibranium para ataque e defesa, que pode lançar com grande precisão. O personagem é conhecido por sua liderança, moralidade e senso de justiça. ", avaliacao: "/public/5starspng.png"},
       { nome: "Thor", foto: "https://images.immediate.co.uk/production/volatile/sites/3/2019/04/TRL9000_v006_071804.1013-1-4bdc34d.jpg", descricao: "deus asgardiano do trovão e um membro fundador dos Vingadores. Como filho de Odin, ele possui força, resistência e longevidade sobre-humanas. Seus poderes incluem o controle de tempestades (raios, trovões, chuva e vento) e ele empunha o martelo mágico Mjölnir, que permite voar, gerar raios e retornar após ser lançado. ", avaliacao: "/public/5starspng.png" },
       { nome: "Hulk", foto: "https://i.redd.it/abil2hm4xnn71.jpg", descricao: "alter ego do Dr. Robert Bruce Banner, um físico nuclear brilhante, mas fisicamente fraco e emocionalmente retraído. Durante um experimento com uma Bomba Gama, Banner foi exposto a uma dose massiva de radiação, o que alterou sua fisiologia, permitindo que ele se transformasse em uma criatura massiva e poderosa sempre que experimentasse raiva ou estresse. ", avaliacao: "/public/5starspng.png" },
       { nome: "Thanos", foto: "https://i.redd.it/u46g8jprr8h31.jpg", descricao: "super-vilão poderoso da Marvel, conhecido como um Titã louco com pele roxa e musculatura imponente, que busca estabilizar o universo ao eliminar metade de toda a vida. Ele possui força, resistência e durabilidade sobre-humanas, mas seu poder maior advém de artefatos como a Manopla do Infinito, que pode ser equipada com as Joias do Infinito para conceder controle total sobre o universo.", avaliacao: "/public/5starspng.png" },
@@ -104,7 +104,7 @@ export function HeroesList() {
     <div className="container">
       <div id="heroes-container"></div>
       <button id="btn-proximos">
-        <img src="/public/icon-right-arrow.png" width="60px" height="70px" />
+        <img src="https://www.pikpng.com/pngl/b/82-829600_red-right-icon-arrow-red-png-clipart.png" width="60px" height="70px" />
       </button>
     </div>
   );

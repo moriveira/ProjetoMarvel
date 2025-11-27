@@ -6,6 +6,5 @@ body {
     linear-gradient(to right, #000 50%, transparent 100%),
     url('/public/avengersBG.jpg');
   background-position: top right;
-  background-repeat: no-repeat;
   backdrop-filter: brightness(0.5);
 }
